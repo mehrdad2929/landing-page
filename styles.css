@@ -1,0 +1,32 @@
+.ancestor {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.ancestor div {
+    flex: auto;
+}
+
+.header {
+    display: flex;
+    
+}
+.header:nth-child(2) {
+    margin-left: auto;
+    font-size: large;
+}
+
+.box_info{
+}
+
+.boxes {
+    display: flex;
+    
+}
+.title{
+    text-align: center;
+}
+.boxes div {
+    flex: auto;
+}
