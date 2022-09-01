@@ -2,31 +2,93 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    align-items: center;
 }
 
-.ancestor div {
-    flex: auto;
-}
 
+
+/* header*/
 .header {
     display: flex;
-    
-}
-.header:nth-child(2) {
-    margin-left: auto;
-    font-size: large;
+    justify-content: center;
+    background-image: url();
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-left: 80px;
+
 }
 
-.box_info{
+.header div {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.second-child {
+    margin-left: auto;
+
+}
+
+/* introduction */
+
+.introduction {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    justify-content: center;
+    gap: 200px;
+}
+
+.introduction div img {
+    border-radius: 10px;
+    height: 200px;
+}
+
+.introduction div .large-font {
+    font-size: 28px;
+    width: 250px;
+}
+
+.introduction div .small-font {
+    font-size: medium;
+    width: 250px;
+}
+
+.introduction div button {
+    background-color: yellowgreen;
+    border-radius: 5px;
+}
+
+/* boxes */
+
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    
 }
 
 .boxes {
     display: flex;
-    
+    justify-content: space-between;
+    margin-bottom: 200px;
+    gap: 20px;
 }
-.title{
-    text-align: center;
-}
+
 .boxes div {
-    flex: auto;
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.boxes div p {
+    text-align: center;
+    width: 150px;
+    margin-left: 25px;
+}
+
+.boxes div img {
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;   
 }
