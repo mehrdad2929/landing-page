@@ -1,8 +1,7 @@
 .ancestor {
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    align-items: center;
+    justify-content: stretch;
 }
 
 
@@ -10,34 +9,33 @@
 /* header*/
 .header {
     display: flex;
-    justify-content: center;
-    background-image: url();
-    margin-right: 80px;
-    margin-top: 30px;
-    margin-left: 80px;
+    color: #e5e7eb;
+    background-color: #1F2937;
+    padding: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
 
 }
 
 .header div {
-    padding-left: 30px;
-    padding-right: 30px;
-
+    width: 100px;
 }
 
-.second-child {
+.header :nth-child(2) {
     margin-left: auto;
-
 }
 
 /* introduction */
 
 .introduction {
     display: flex;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 100px;
     justify-content: center;
     gap: 200px;
+    color: #e5e7eb;
+    background-color: #1F2937;
 }
 
 .introduction div img {
@@ -65,20 +63,26 @@
 
 .title {
     text-align: center;
+    margin-top: 40px;
     margin-bottom: 40px;
-    
+    font-size: 30px;
+
 }
 
 .boxes {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 200px;
     gap: 20px;
+
 }
 
 .boxes div {
-    flex: 1;
+    flex: 0;
     background-color: aquamarine;
+    border-style: double;
+    border-color: aquamarine;
+    border-radius: 5px;
 }
 
 .boxes div p {
@@ -90,5 +94,54 @@
 .boxes div img {
     border-radius: 5px;
     height: 200px;
-    width: 200px;   
+    width: 200px;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #e5e7eb;
+
+
+}
+
+.quote :nth-child(1) {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    font-style: italic;
+    font-size: 36px;
+    width: 800px;
+}
+
+.quote :nth-child(2) {
+    text-align: end;
+    margin-right: 50px;
+}
+
+/*contact*/
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    margin-right: 150px;    
+    margin-left: 150px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.contact div {
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.contact div button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
 }
