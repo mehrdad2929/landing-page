@@ -1,3 +1,6 @@
+html {
+    background-color: #1F2937;
+}
 .ancestor {
     display: flex;
     flex-direction: column;
@@ -10,7 +13,7 @@
 .header {
     display: flex;
     color: #e5e7eb;
-    background-color: #1F2937;
+    
     padding: 30px;
     padding-left: 200px;
     padding-right: 200px;
@@ -59,7 +62,9 @@
 }
 
 /* boxes */
-
+.box_info {
+    background-color: darkslategrey;
+}
 
 .title {
     text-align: center;
